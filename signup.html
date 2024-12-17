@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Event</title>
+        <link rel="stylesheet" href="./Style.css" />
+        <link />
+        <link rel="stylesheet" href="./signup.css" />
+        <link />
+    </head>
+    <body>
+        
+        <div class="container1">
+            <div class="input">
+            <input type="text" placeholder="Your Name" required onchange="userName(event)">
+            <p id="nameErr" style="color:red"></p>
+            <input  type="text"placeholder="name@gmail.com" required onchange="userEmail(event)">
+            <p id="emailErr" style="color:red"></p>
+            <input  type="pwd"placeholder="Password" required onchange="userpassword(event)">
+            <p id="passwordErr" style="color:red"></p>
+            <div class="but1">
+                <button onclick="submitSignup()">
+                      <a href="./index.html"> 
+                    Signup
+                 </a> 
+            </button>
+                </div>
+            </div>
+            <div>
+        
+        
+
+        <script src="./signup.js"></script>
+        <script src="./password.js"></script>
+    </body>
+</html>
